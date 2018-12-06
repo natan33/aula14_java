@@ -8,6 +8,17 @@ public class Pessoa {
     private String nome;
    private Integer matricula;
    private Integer idade;
+   
+   private Endereco endereco;
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
+   
 
     public Pessoa(String nome, Integer matricula, Integer idade) {
         this.nome = nome;
